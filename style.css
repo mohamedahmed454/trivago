@@ -1,0 +1,42 @@
+.home video{
+  width: 100%;
+}
+.home{
+  position: relative;
+}
+.home .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+.home .text h1{
+  font-size: 60px;
+  text-align: center;
+}
+.container.sec4 .row{
+  margin-bottom: 20px;
+}
+.container.sec4 .row img{
+  height: 300px;
+}
+.sec5{
+  margin-bottom: 20px;
+}
+.sec6{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:913px){
+  .home .text h1 {
+    font-size: 28px;
+   }
+}
+@media screen and (max-width:415px){
+  .home .text h1 {
+    font-size: 15px;
+   }
+}
